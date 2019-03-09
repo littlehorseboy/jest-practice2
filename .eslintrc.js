@@ -12,6 +12,7 @@ module.exports = {
     'airbnb-base',
   ],
   globals: {
+    jest: 'readonly',
     test: 'readonly',
     expect: 'readonly',
     beforeEach: 'readonly',
