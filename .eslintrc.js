@@ -14,6 +14,11 @@ module.exports = {
   globals: {
     test: 'readonly',
     expect: 'readonly',
+    beforeEach: 'readonly',
+    afterEach: 'readonly',
+    beforeAll: 'readonly',
+    afterAll: 'readonly',
+    describe: 'readonly',
   },
   rules: {
     'linebreak-style': [
