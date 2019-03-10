@@ -1,5 +1,5 @@
 import axios from 'axios';
-import Users from './Users';
+import Users from '../../../src/Mocking Modules/Users';
 
 jest.mock('axios');
 
