@@ -14,6 +14,7 @@ test('should fetch users', () => {
   };
 
   axios.get.mockResolvedValue(response);
+  // axios.get.mockImplementation(() => Promise.resolve(response));
 
   return Users.all()
     .then((res) => {
