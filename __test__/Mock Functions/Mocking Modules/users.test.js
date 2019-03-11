@@ -16,5 +16,7 @@ test('should fetch users', () => {
   axios.get.mockResolvedValue(response);
 
   return Users.all()
-    .then(res => expect(res.data).toEqual(users));
+    .then((res) => {
+      expect(res.data).toEqual(users);
+    });
 });
